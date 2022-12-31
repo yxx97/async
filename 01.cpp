@@ -20,6 +20,6 @@ int main(int argc,int *argv[]){
     thread th(ThreadMain);
     //阻塞等待子线程推出
     th.join();
-    cout << "yxx" << endl;
+    cout << "yxx"<<"test" << endl;
     return 0;
 }
